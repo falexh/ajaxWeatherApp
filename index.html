@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title> Weather App </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+</head>
+
+
+<body>
+
+	<!-- HEADER -->
+<div class="container-fluid">
+	<div class="row" style="background-color:grey;">
+
+		<div class="col-lg-3">
+			<img src="snowPic.png" class="mainPic" alt="icon" width="100" height="100">
+		</div>
+
+		<div class="col-lg-6">
+			<span><center><h1 id= "weatherTitle"> Easy Weather App </h1> </center></span>
+			<br>
+		</div>
+
+	</div>
+</div>
+
+
+<!-- Where data for request is placed -->
+<div class="container-fluid" style="background-color:black;">
+	<div class="row">
+		<h3 class="text-center" id= "enterCity"> enter your city: </h3>
+		<center>
+		<span id="error"></span>
+		<div class="form-group form-inline ">
+			<input type="text" name="city" id="yourCity" class="form-control" placeholder="your city"autofocus>
+			<button id="submitter" class="btn btn-primary">get weather!</button>
+		</div></center>
+	</div>
+
+
+<!-- API Data is shown here -->
+	<div class="row">
+		<div class="col-lg-6">
+			<div id="showData"></div>
+		</div>
+	</div>
+
+</div>
+
+
+<!-- SCRIPT SOURCES -->
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

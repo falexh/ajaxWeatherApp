@@ -1,0 +1,21 @@
+#weatherTitle{
+  font-size: 300%;
+  color: lightblue;
+  font-family: Montserrat;
+}
+
+#enterCity{
+  font-size: 150%;
+  color: coral;
+}
+
+
+#yourCity{
+  border-radius: 10%;
+}
+
+.mainPic{
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
